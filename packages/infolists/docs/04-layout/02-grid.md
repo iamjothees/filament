@@ -35,7 +35,7 @@ Inside the section, we have a [text entry](../entries/text). Since text entries 
 use Filament\Infolists\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 
-Section::make()
+Grid::make()
     ->columns([
         'sm' => 3,
         'xl' => 6,
